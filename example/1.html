@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Chart24.js Example</title>
+</head>
+<body>
+<h1>The most simple Canvas Chart Plugin</h1>
+<div id="cvs" style="width: 1000px; height: 400px; "></div>
+
+<script src="../jquery.js"></script>
+<script src="../chart24.js"></script>
+<script>
+var data = [550000,353873,332175,349715,408907,310273,278386,229296,248346,287416,222641,257459,289288,312262,233902,219395,231941,189372,202604,142011,163433,216467,187087,198787,228034,183496,190323,208611,124155,121322,87250,80881,76913,56363,65749,90872,85683,122790,135389,136553,192849,240533,301656,331048,470017,395875,456036,475985,469458,440002];
+var options = {
+};
+chart24.init("cvs", data, options);
+</script>
+</body>
+</html>
