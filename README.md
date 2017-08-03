@@ -1,21 +1,25 @@
 # Chart24.js
-The Most simple chart library
-This library need jquery
+Chart library that aims to use simple and easy.
 
-## Version 1.0.0
-Zip: [Download](https://github.com/ohwhos/chart24.js/archive/master.zip)
+## Dependencies
+- JQuery
 
-## Example
-usage
-```sh
+## Download
+[Click Here](https://github.com/ohwhos/chart24.js/archive/master.zip)
+
+## Getting started
+```javascript
+<canvas id="my-cavas" width="500" height="300"></canvas>
+
 <script src="jquery.js"></script>
 <script src="chart24.js"></script>
 
 <script>
+var canvasId = "#my-canvas";
 var data = [10,20,30,40,50];
 var options = {
   // Options
 };
-chart24.init("Selector(id only)", data, options);
+chart24.init(canvasId, data, options);
 </script>
 ```
